@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #facc15;
+  --color-background: #0a0a0a;
+  --color-surface: #161616;
+  --color-surface-hover: #202020;
+}
+
+:root {
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  background-color: var(--color-background);
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  @apply bg-surface/80 backdrop-blur-2xl border border-white/5 shadow-2xl;
+}
+
+.glass-button {
+  @apply bg-white/5 hover:bg-white/10 border border-white/10 backdrop-blur-md transition-all duration-300;
+}
+
+/* High-end Animations */
+@keyframes pulse-gold {
+  0% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.4); }
+  70% { box-shadow: 0 0 0 20px rgba(250, 204, 21, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); }
+}
+
+.animate-gold-pulse {
+  animation: pulse-gold 2s infinite;
+}
