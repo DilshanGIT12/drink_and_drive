@@ -9,7 +9,7 @@ This platform is built on the principle of **Tactical UI/UX**—a design languag
 
 - **Midnight Gold Palette**: A curated dark-mode theme utilizing deep charcoals and vibrant gold accents for low-light operational clarity.
 - **Micro-Interaction Engine**: Powered by Framer Motion, every transition and state change is fluid, providing a cinematic experience.
-- **Glassmorphic Components**: Modern, translucent UI elements that maintain context while highlighting critical mission data.
+- **Glassmorphic Components**: Modern, translucent UI elements that maintain context while highlighting critical mission data
 
 ---
 
