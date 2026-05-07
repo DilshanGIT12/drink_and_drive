@@ -5,7 +5,7 @@
 ---
 
 ## 🌟 Vision & Tactical Design Philosophy
-This platform is built on the principle of **Tactical UI/UX**—a design language that prioritizes high-contrast visibility, rapid data processing, and a premium "Military-Grade" aesthetic. 
+This platform is built on the principle of **Tactical UI/UX**—a design language that prioritizes high-contrast visibility, rapid data processing, and a premium "Military-Grade" aesthetic 
 
 - **Midnight Gold Palette**: A curated dark-mode theme utilizing deep charcoals and vibrant gold accents for low-light operational clarity.
 - **Micro-Interaction Engine**: Powered by Framer Motion, every transition and state change is fluid, providing a cinematic experience.
